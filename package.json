@@ -1,0 +1,19 @@
+{
+  "name": "praktikum-web-mysql",
+  "version": "1.0.0",
+  "description": "Modul 2 - REST API Express.js + MySQL (Controller/Service, Joi, error handler terpusat)",
+  "main": "server.js",
+  "scripts": {
+    "migrate": "node migrate.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "joi": "^18.3.2",
+    "mysql2": "^3.24.6"
+  }
+}
